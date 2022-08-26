@@ -1,0 +1,18 @@
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* padding: 3rem 0; */
+}
+
+.img-container {
+    height: 362px;
+    width: 362px;
+    /* z-index: 22; */
+}
+
+.img-container img {
+    width: 100%;
+}
+

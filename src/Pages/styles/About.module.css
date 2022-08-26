@@ -1,0 +1,69 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    min-height: 110vh;
+    text-align: center;
+    padding: 2rem;
+    justify-content: space-around;
+
+}
+
+
+.head p:first-child {
+    font-family: "Inter";
+    font-size: 2rem;
+    font-weight: 700;
+    
+}
+
+.head p:last-child {
+    font-family: "Inter";
+    font-size: 2.8rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 1rem;
+    gap: 1.5rem;
+}
+
+.body p {
+    width: 60%;
+}
+
+.end {
+    font-family: Basquiat;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #DE382D;
+    margin-top: 0rem;
+
+}
+
+@media(max-width: 1080px) {
+    .screen{
+        padding: 2rem 2rem 2rem 20%;
+    }
+
+    .head p:first-child {
+        font-size: 1.5rem;
+        padding-left: 10%;
+    }
+
+    .head p:last-child {
+        font-size: 1.8rem;
+    }
+}
